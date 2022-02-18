@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Text?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="anchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #086808;"
+            xmlns="http://javafx.com/javafx/11.0.2"
+            xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="com.usanov.controller.GameController">
+
+    <children>
+        <Rectangle fx:id="playerRectangle" arcHeight="5.0" arcWidth="5.0" fill="#ffbb71" height="100.0" layoutY="250.0" stroke="BLACK" strokeType="INSIDE" width="50.0" />
+        <Rectangle fx:id="opponentRectangle" arcHeight="5.0" arcWidth="5.0" fill="#ff6b6b" height="100.0" layoutX="985.0" layoutY="250.0" stroke="BLACK" strokeType="INSIDE" width="50.0" />
+        <Circle fx:id="ballFirst" centerX="500.0" centerY="400.0" fill="WHITE" radius="15" stroke="BLACK" strokeType="INSIDE" />
+        <Circle fx:id="ballSecond" centerX="500.0" centerY="400.0" fill="WHITE" radius="15" stroke="BLACK" strokeType="INSIDE" />
+        <Text fx:id="result" fill="#fefdff" layoutX="400.0" layoutY="400.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="197.0">
+            <font>
+                <Font name="Arial" size="36.0" />
+            </font>
+        </Text>
+        <Text fx:id="clickForMenuLabel" fill="#fdfdff" layoutX="400.0" layoutY="480.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="197.0">
+            <font>
+                <Font name="Arial" size="24.0" />
+            </font>
+        </Text>
+    </children>
+</AnchorPane>

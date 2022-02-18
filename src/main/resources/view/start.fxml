@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.scene.text.Font?>
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #086808;"
+            xmlns="http://javafx.com/javafx/11.0.2"
+            xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.usanov.controller.StartController">
+
+    <children>
+        <Button layoutX="370" layoutY="300" mnemonicParsing="false" onAction="#createGameBtnTapped" style="-fx-background-color: #3e5336; -fx-border-color: white;" text="CREATE GAME" textFill="WHITE">
+            <font>
+                <Font name="Arial" size="24.0" />
+            </font>
+        </Button>
+        <TextField fx:id="portInput" layoutX="340" layoutY="360"  promptText="PORT" style="-fx-background-color: #3e5336; -fx-border-color: #ffffff;">
+            <font>
+                <Font name="Arial" size="21.0" />
+            </font>
+        </TextField>
+        <Button layoutX="370" layoutY="420" mnemonicParsing="false" onAction="#joinToGameBtnTapped" style="-fx-background-color: #3e5336; -fx-border-color: white;" text="CONNECT TO GAME" textFill="WHITE">
+            <font>
+                <Font name="Arial" size="18.0" />
+            </font>
+        </Button>
+    </children>
+</AnchorPane>

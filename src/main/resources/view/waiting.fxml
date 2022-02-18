@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.Text?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0"
+            prefWidth="800.0" style="-fx-background-color: #086808;" xmlns="http://javafx.com/javafx/11.0.2"
+            xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.usanov.controller.WaitingController">
+
+    <Text fill="WHITE" layoutX="350.0" layoutY="350.0" strokeType="OUTSIDE" strokeWidth="0.0"
+          text="Opponent's waiting!" textAlignment="CENTER" wrappingWidth="288.046875">
+        <font>
+            <Font name="Arial" size="24.0"/>
+        </font>
+    </Text>
+    <Text fx:id="portLabel" fill="WHITE" layoutX="10" layoutY="50" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-background-color: orange"
+          text="PORT: 12345">
+        <font>
+            <Font name="Arial" size="24.0"/>
+        </font>
+    </Text>
+</AnchorPane>
+
